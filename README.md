@@ -54,7 +54,7 @@
     <item  android:drawable="@drawable/switcher_bg_off" />
 </selector>
 ```
-关于Switch 设置文字配置属性
+关于Switch 设置文字配置属性  
 android:showText="true"   
 android:switchTextAppearance="@style/switchtheme"  
 android:textOff="  关  "  
