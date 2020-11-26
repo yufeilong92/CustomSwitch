@@ -20,7 +20,7 @@
 ```
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android"
     android:shape="rectangle">
-    <item android:height="41dp" android:width="87dp">
+    <item android:height="25dp" android:width="60dp">
         <bitmap android:src="@drawable/switcher_track_on" />
     </item>
 </layer-list>
@@ -29,7 +29,7 @@
 ```
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android"
     android:shape="rectangle">
-    <item android:height="41dp" android:width="87dp" >
+    <item android:height="25dp" android:width="60dp" >
         <bitmap android:src="@drawable/switcher_track_off" />
     </item>
 </layer-list>
@@ -38,8 +38,8 @@
 ```
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
     android:shape="rectangle">
-    <corners android:radius="15.5dp" />
-    <size android:width="41dp" android:height="41dp"/>
+    <corners android:radius="12dp" />
+    <size android:width="25dp" android:height="25dp"/>
     <!-- 边框填充的颜色 -->
     <solid android:color="#0d2e65" />
     <stroke android:color="@android:color/transparent"
@@ -58,8 +58,7 @@
 android:showText="true"   
 android:switchTextAppearance="@style/switchtheme"  
 android:textOff="  关  "  
-android:textOn="   开  "
-
+android:textOn="   开  "  
 
 
 
